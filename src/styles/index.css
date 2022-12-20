@@ -1,0 +1,66 @@
+.buttons-container {
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+button {
+  margin-left: 20px;
+
+  background: transparent;
+  border-radius: 50%;
+  font-size: 1.5em;
+  transition: 0.5s;
+  cursor: pointer;
+  border: none;
+}
+
+.circular {
+  width: 6.25rem;
+  aspect-ratio: 1;
+}
+.green,
+.green:hover {
+  background-color: green;
+}
+
+.number {
+  font-size: 7.5em;
+}
+
+.small {
+  font-size: 4em;
+}
+
+.red {
+  background-color: red;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.reset {
+  background-color: rgb(77, 77, 153);
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+.split {
+  background-color: #f29e25;
+}
+
+.ranking {
+  padding-right: 20px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 69px;
+  font-size: 40px;
+}
+
+.list-item span:not(.list-item span:nth-child(2)) {
+  width: 4%;
+}
